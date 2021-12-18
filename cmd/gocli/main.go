@@ -4,7 +4,7 @@ import (
 	"context"
 	"flag"
 	"fmt"
-	outer "github.com/mar-heaven/gocli-learn"
+	"github.com/mar-heaven/gocli-learn"
 	internal "github.com/mar-heaven/gocli-learn/internal/gocli"
 	"os"
 	"strings"
@@ -20,7 +20,7 @@ func (*printCmd) Name() string { return "print" }
 func (*printCmd) Synopsis() string {
 	// test package
 	internalRsp := internal.ReturnInternal()
-	outRsp := outer.ReturnOuter()
+	outRsp := gocli.ReturnOuter()
 	fmt.Println(internalRsp)
 	fmt.Println(outRsp)
 	return "Print args to stdout."
