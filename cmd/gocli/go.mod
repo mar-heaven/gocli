@@ -6,3 +6,5 @@ require (
 	github.com/google/subcommands v1.2.0
 	github.com/mar-heaven/gocli v0.0.0-20211219140747-2890c02234b3
 )
+
+require github.com/mar-heaven/gocli-learn v0.0.0-20211218233806-670f05440751 // indirect
