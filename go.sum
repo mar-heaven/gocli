@@ -1,2 +1,4 @@
 github.com/google/subcommands v1.2.0 h1:vWQspBTo2nEqTUFita5/KeEWlUL8kQObDFbub/EN9oE=
 github.com/google/subcommands v1.2.0/go.mod h1:ZjhPrFU+Olkh9WazFPsl27BQ4UPiG37m3yTrtFlrHVk=
+github.com/mar-heaven/gocli-learn v0.0.0-20211218233806-670f05440751 h1:DomFteZ8MCJNKs9lnvAulcg+b9CCL8bx0NMpO0jX93I=
+github.com/mar-heaven/gocli-learn v0.0.0-20211218233806-670f05440751/go.mod h1:pTN+SUQMzAHqFSN8N8DMhYVDs2+wjZL5tyz89hf2QUE=
