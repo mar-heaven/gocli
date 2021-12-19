@@ -4,8 +4,8 @@ import (
 	"context"
 	"flag"
 	"fmt"
-	"github.com/mar-heaven/gocli-learn"
-	internal "github.com/mar-heaven/gocli-learn/internal/gocli"
+	"github.com/mar-heaven/gocli"
+	internal "github.com/mar-heaven/gocli/internal/gocli"
 	"os"
 	"strings"
 
