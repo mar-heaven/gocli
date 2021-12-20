@@ -4,7 +4,7 @@ import (
 	"context"
 	"flag"
 	"fmt"
-	internal "github.com/mar-heaven/gocli/internal/gocli"
+	util "github.com/mar-heaven/gocli/cmd/go-cli2/internal/util"
 	"os"
 	"strings"
 
@@ -18,7 +18,7 @@ type printCmd struct {
 func (*printCmd) Name() string { return "print" }
 func (*printCmd) Synopsis() string {
 	// test package
-	internalRsp := internal.ReturnInternal()
+	internalRsp := util.ReturnInternal()
 	fmt.Println(internalRsp)
 	return "Print args to stdout."
 }
