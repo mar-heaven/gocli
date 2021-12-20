@@ -4,7 +4,7 @@ import (
 	"context"
 	"flag"
 	"fmt"
-	util "github.com/mar-heaven/gocli/cmd/go-cli2/internal/util"
+	"github.com/mar-heaven/gocli/cmd/go-cli2/internal/util"
 	"os"
 	"strings"
 
